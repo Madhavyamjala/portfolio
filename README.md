@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+Welcome to my portfolio website! This project showcases my work, skills, and projects in the field of web development, artificial intelligence, and machine learning.
+
+## Table of Contents
+
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+- [License](#license)
+- [Contact](#contact)
+  
+## Features
+
+- **Smooth Animations**: Uses `framer-motion` for smooth, interactive animations throughout the website.
+- **Scroll Animations**: Powered by `locomotive-scroll`, the site provides a visually appealing smooth scrolling experience.
+- **Responsive Design**: The website is fully responsive and adapts to different screen sizes and devices.
+- **Dynamic Image Sliders**: Animating image sliders with `framer-motion` and `next/image` for optimized performance.
+- **Contact Section**: Includes a contact form and direct links for getting in touch.
+
+## Technologies Used
+
+- **Next.js**: Framework for building server-side rendered React applications.
+- **React**: Library for creating user interfaces and handling the component structure.
+- **TypeScript**: For type-safe code and better development experience.
+- **Framer Motion**: Handles animations and transitions for various elements across the site.
+- **Locomotive Scroll**: Provides smooth scrolling with animations triggered by scroll position.
+- **SCSS Modules**: For modular and reusable styles in a clean and scalable manner.
+- **Next/Image**: Optimized image handling for fast load times and responsive images.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js v14+
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/madhavyamjala/portfolio-website.git
+   cd portfolio-website
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. Start the development server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open the site in your browser at `http://localhost:3000`.
+
+### Building for Production
+
+To build the project for production:
 
 ```bash
-npm run dev
+npm run build
 # or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+yarn build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Start the server:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run start
+# or
+yarn start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Structure
 
-## Learn More
+- **components/**: Reusable UI components used across the project.
+- **pages/**: The Next.js pages for routing and layout management.
+- **styles/**: SCSS modules for styling each component and section.
+- **public/**: Static assets like images used throughout the site.
 
-To learn more about Next.js, take a look at the following resources:
+## Usage
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Feel free to explore the various sections of the website, including the project showcases, landing page, contact information, and more. The website provides an overview of my skills and experiences in the tech field.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
+This project is open-source and available under the [MIT License](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any inquiries or collaborations, please reach out to me at:
+
+- Email: [yamjalamadhav@outlook.com](mailto:yamjalamadhav@outlook.com)
+- LinkedIn: [MadhavYamjala](https://www.linkedin.com/in/madhavyamjala/)
